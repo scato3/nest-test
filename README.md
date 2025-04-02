@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Turborepo starter
 
 This Turborepo starter is maintained by the Turborepo core team.
@@ -82,3 +83,53 @@ Learn more about the power of Turborepo:
 - [Filtering](https://turbo.build/repo/docs/core-concepts/monorepos/filtering)
 - [Configuration Options](https://turbo.build/repo/docs/reference/configuration)
 - [CLI Usage](https://turbo.build/repo/docs/reference/command-line-reference)
+=======
+## 도커로 실행하기
+
+본 프로젝트는 도커를 사용하여 쉽게 실행할 수 있습니다.
+
+### 필요 조건
+
+- Docker
+- Docker Compose
+
+### 실행 방법
+
+1. 저장소 클론
+
+```bash
+git clone https://github.com/scato3/nest-test.git
+```
+
+2. 도커 컨테이너 빌드 및 실행
+
+```bash
+docker-compose up -d
+```
+
+3. API 접근
+
+```
+http://localhost:3000
+```
+
+### 주요 엔드포인트
+
+- 로그인: POST /auth/login
+
+  ```json
+  {
+    "email": "user@example.com",
+    "password": "password"
+  }
+  ```
+
+- 회원가입: POST /auth/register
+  ```json
+  {
+    "email": "newuser@example.com",
+    "password": "password123",
+    "name": "신규 사용자"
+  }
+  ```
+>>>>>>> b12a68c0f6d9feb296d3d79950e42faa06a6bdb6

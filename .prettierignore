@@ -1,0 +1,30 @@
+# dist
+dist
+node_modules
+coverage
+package-lock.json
+package.json
+.prettierrc
+.eslintrc.js
+eslint.config.mjs
+
+# Logs
+logs
+*.log
+
+# OS
+.DS_Store
+
+# Tests
+/coverage
+/.nyc_output
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+.vscode/* 
